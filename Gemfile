@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'haml-rails', '~> 0.9'
 gem 'sass-rails', '~> 5.0'
+gem 'pg', '~> 0.18'
+gem 'activerecord-reset-pk-sequence'
+gem 'bcrypt'
+gem 'active_model_serializers'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
