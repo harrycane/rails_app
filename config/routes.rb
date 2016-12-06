@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :themes
+  resources :values
+  resources :images
   resources :users
   root 'main#index'
 
