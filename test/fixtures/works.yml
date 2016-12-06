@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  index: 1.5
+  choose_theme: MyString
+  display_theme: MyString
+
+two:
+  index: 1.5
+  choose_theme: MyString
+  display_theme: MyString

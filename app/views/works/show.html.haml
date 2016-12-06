@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Index:
+  = @work.index
+%p
+  %b Choose theme:
+  = @work.choose_theme
+%p
+  %b Display theme:
+  = @work.display_theme
+
+= link_to 'Edit', edit_work_path(@work)
+\|
+= link_to 'Back', works_path
