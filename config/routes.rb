@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   resources :values
   resources :images
   resources :users
+  
   root 'main#index'
 
   get 'main/index'

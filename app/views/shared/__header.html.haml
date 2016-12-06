@@ -1,11 +1,10 @@
 %html
   %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
     %title My App
+    %link
   %body
     %nav
       %ul
-        %li
-          link_to
-        %li
-        %li
-        %li
+        %li= link_to raw('<strong>Main</strong>'), :title => 'main'
+        %li= link_to raw('<strong>Help</strong>'), :title => 'help'
