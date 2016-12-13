@@ -1,2 +1,14 @@
-%h1 Main#index
-%p Find me in app/views/main/index.html.haml
+-#- @images.each do |images|
+-#  %tr
+-#    %td= images.title
+-#    %td= images.content
+-#    %td= link_to "Show", images
+-#    %td= link_to "Edit", edit_book_path(images)
+-#    %td= link_to "Remove", book, method: :delete, data: { confirm: "Are you sure?" }
+
+%label {Choose Theme}
+%form{:action => '', :method => 'get'}
+  %select{:name => 'param_name'}
+    %option{:value => ''} A data
+    %option{:value => 'B'} B data
+
